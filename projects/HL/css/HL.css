@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(145, 200, 207);
+}
+
+h1 {
+    background-color: #2e909b;
+    margin: 100px;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 10px;
+    margin: auto;
+    width: 806px;
+    height: 400px;
+    background-color: #2e909b;
+    border-radius: 10px;
+}
+
+article {
+    background-color: #c0c0c0;
+}
+
+.username {
+    background-color: none;
+    width: 300px;
+    height: 50px;
+    margin: 0 10px 10px 0;
+    float: left;
+    margin-left: 0px;
+    margin-top: 45px;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.randomNumber {
+    background-color: #c0c0c0;
+    width: 120px;
+    height: 120px;
+    margin: 0 10px 10px 0;
+    float: right;
+    margin-right: 600px;
+    font-size: 80pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.botNumber {
+    background-color: #c0c0c0;
+    width: 120px;
+    height: 120px;
+    margin: 0 10px 10px 0;
+    float: right;
+    margin-right: 600px;
+    font-size: 80pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.higher {
+    margin-left: 100px;
+    width: 60px;
+}
+
+.lower {
+    width: 60px;
+}

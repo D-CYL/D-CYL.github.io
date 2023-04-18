@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(102, 98, 98);
+    /* Linear gradient wordt niet bij de oude browsers gesupport. ze zien dan alleen die background color*/
+    background-attachment: fixed;
+    /*Dit zorgt ervoor dat ik niet van die irritante witte lijnen er tussen krijgt  */
+    background-image: linear-gradient(180deg, rgb(0 0 0) 30%, rgb(145 145 145))
+}
+
+
+.HL {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+button {
+    background-color: black;
+    width: 115px;
+    height: 75px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px white;
+    border: 1px solid white;
+    margin: 10px;
+    font-size: large;
+
+}
+
+button:hover {
+    background-color: gray;
+    box-shadow: 0 4px white;
+    transform: translateY(-2px);
+    /*als ik met mijn muis erover heen ga gaat het hoger*/
+}
+
+button:active {
+    box-shadow: 0 0px white;
+    transform: translateY(2px);
+    /*als ik met mijn muis erop klik dan gaat het lager*/
+}
+
+.wrapper {
+    width: 600px;
+    height: 720px;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+}
+
+.h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Computerstats {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.Playerstats {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 25px;
+}
+
+.noIdea {
+    width: 500px;
+    margin: auto;
+}
+
+.credits {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 340px;
+    margin-top: 30px;
+}
+
+.footer {
+    border: 1px solid white;
+    width: 599px;
+    height: 107px;
+    margin-top: 138px;
+}
+
+.Playerscore {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 160px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.Computerscore {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 160px;
+    height: 40px;
+    margin-right: 100px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.creditsscore {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: 1px solid white;
+    width: 160px;
+    height: 40px;
+    margin-top: -65px;
+    margin-left: 300px;
+    padding: 5px;
+}
+
+.wrappersr {
+    width: 600px;
+    height: 720px;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+}
+
+.h1sr {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2sr {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.benedensr {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 90px;
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+}
+
+.bigwrapper {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 1700px;
+    height: 1800px;
+    margin: auto;
+    text-align: center;
+}

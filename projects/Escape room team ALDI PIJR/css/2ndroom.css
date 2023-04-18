@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+img {
+    width: 1800px;
+    height: 1200px;
+}
+
+.wrapper {
+    background-color: black;
+    border: 1px solid white;
+    width: 1700px;
+    height: 900px;
+    margin: auto;
+    text-align: center;
+    background-image: url(../img/Hallway.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+article {
+    background-color: beige;
+    width: 90px;
+    height: 170px;
+    margin-top: 730px;
+    margin-left: 1030px;
+    background-color: transparent;
+    
+}
+
+
+
+
+.findBtn {
+    background-color: transparent;
+}
+
+
+
+
+
+button:hover{
+    cursor: pointer;
+}
+
+article:hover{
+    cursor: pointer;
+}
+
+footer {
+    color: rgb(128, 126, 126);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: 20px;
+}
