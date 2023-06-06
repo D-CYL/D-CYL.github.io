@@ -1,0 +1,15 @@
+
+/* Put yor own CSS code here when needed */
+.background{
+    background: url(/webcat_pc/img/background.jpg) center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+body{
+    background: url(/webcat_pc/img/background-nav-carts.jpg) center no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,22 @@
+/* Put yor own CSS code here when needed */
+.background {
+    background: url(/img/background.jpg) center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.background-nav {
+    background: url(/img/background-nav-carts.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.background-navi {
+    background: url(/img/background-nav-carts.jpg) center no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
