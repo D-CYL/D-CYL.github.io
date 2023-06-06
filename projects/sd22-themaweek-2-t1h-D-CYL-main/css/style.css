@@ -1,0 +1,33 @@
+body {
+  background-image: url(/media/Clouds.jpg);
+  background-repeat: no-repeat;
+}
+
+.game-board {
+  background-color: gray;
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+
+.choiceBtn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 60pt;
+  transition: 1000ms;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.choiceBtn:hover{
+  transform: scale(1.2);
+}
