@@ -1,6 +1,6 @@
 
-const userOne = prompt('Player 1 name please');
-const userTwo = prompt('Player 2 name please');
+// const userOne = prompt('Player 1 name please');
+// const userTwo = prompt('Player 2 name please');
 
 const plrOne = document.querySelector('.plrOne');
 plrOne.textContent = userOne;
