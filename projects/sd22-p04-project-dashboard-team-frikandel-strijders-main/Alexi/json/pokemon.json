@@ -1,0 +1,9 @@
+{
+  "name": ["Charmander", "Bulbasaur", "Squirtle"],
+  "popularity": [93, 85, 76],
+  "rarity": "starter",
+  "type": ["fire", "grass", "water"]
+}
+
+  
+  

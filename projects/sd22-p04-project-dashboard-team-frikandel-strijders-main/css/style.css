@@ -1,0 +1,63 @@
+.dark {
+    background-color: rgb(37, 36, 36);
+}
+
+.height {
+    height: 750px;
+}
+
+.contact-height {
+    height: 680px;
+}
+
+.long {
+    height: 789px;
+}
+
+.fullscreen{
+    height: 881px;
+}
+
+.small {
+    width: 3%;
+}
+
+.small-height {
+    height: 200px;
+}
+
+.text-area {
+    max-height: 670px;
+    max-width: 1500px;
+    overflow-y: scroll;
+}
+
+.small-width {
+    max-width: 400px;
+}
+
+.small-profile {
+    width: 50px;
+}
+
+.male-profile {
+    width: 50px;
+}
+
+.right {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+body{
+    background-image: linear-gradient(to top, black, gray);
+    background-position: fixed;
+    background-repeat: no-repeat;
+}

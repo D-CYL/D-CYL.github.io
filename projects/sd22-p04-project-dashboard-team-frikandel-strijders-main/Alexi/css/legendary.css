@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, rgb(255, 72, 0), rgb(238, 255, 0));
+  background-repeat: no-repeat;
+  background-color: orange;
+  background-attachment: fixed;
+}
+
+.navbar-outline {
+  outline: solid;
+  outline-width: 1px;
+}
+
+.popularity,
+.avarage-lvl {
+  max-height: 400px;
+  max-width: 1500px;
+}
+
+.card:hover .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.card:hover .img-top {
+  display: inline;
+}
+
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
